@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5754EA5B97779597016C702 /* Pods_Swift4LINELogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 475DE09424BE57FE318D4643 /* Pods_Swift4LINELogin.framework */; };
 		FFE720772175BB6D0008227E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE720762175BB6D0008227E /* AppDelegate.swift */; };
 		FFE720792175BB6D0008227E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE720782175BB6D0008227E /* ViewController.swift */; };
 		FFE7207C2175BB6D0008227E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE7207A2175BB6D0008227E /* Main.storyboard */; };
 		FFE7207E2175BB6E0008227E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFE7207D2175BB6E0008227E /* Assets.xcassets */; };
 		FFE720812175BB6E0008227E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE7207F2175BB6E0008227E /* LaunchScreen.storyboard */; };
+		FFE720892175C1AE0008227E /* LineSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE720882175C1AE0008227E /* LineSDK.framework */; };
+		FFE7208B2175C1E50008227E /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE7208A2175C1E50008227E /* SDWebImage.framework */; };
+		FFE7208D2175C1F50008227E /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE7208C2175C1F50008227E /* CoreTelephony.framework */; };
+		FFE7208F2175C1FD0008227E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE7208E2175C1FD0008227E /* Security.framework */; };
+		FFE720922175C85C0008227E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE720912175C85C0008227E /* ProfileViewController.swift */; };
+		FFE720942175C8D50008227E /* lineIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FFE720932175C8D50008227E /* lineIcon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		475DE09424BE57FE318D4643 /* Pods_Swift4LINELogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift4LINELogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53162FB7B35D2A377012719A /* Pods-Swift4LINELogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift4LINELogin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swift4LINELogin/Pods-Swift4LINELogin.debug.xcconfig"; sourceTree = "<group>"; };
+		8ABEAC38B29B29F9240CADD9 /* Pods-Swift4LINELogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift4LINELogin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swift4LINELogin/Pods-Swift4LINELogin.release.xcconfig"; sourceTree = "<group>"; };
 		FFE720732175BB6D0008227E /* Swift4LINELogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift4LINELogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFE720762175BB6D0008227E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFE720782175BB6D0008227E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,13 @@
 		FFE7207D2175BB6E0008227E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFE720802175BB6E0008227E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFE720822175BB6E0008227E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFE720882175C1AE0008227E /* LineSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LineSDK.framework; sourceTree = "<group>"; };
+		FFE7208A2175C1E50008227E /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFE7208C2175C1F50008227E /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		FFE7208E2175C1FD0008227E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FFE720902175C22F0008227E /* Swift4LINELogin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Swift4LINELogin.entitlements; sourceTree = "<group>"; };
+		FFE720912175C85C0008227E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		FFE720932175C8D50008227E /* lineIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lineIcon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +46,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFE7208F2175C1FD0008227E /* Security.framework in Frameworks */,
+				FFE7208D2175C1F50008227E /* CoreTelephony.framework in Frameworks */,
+				FFE7208B2175C1E50008227E /* SDWebImage.framework in Frameworks */,
+				A5754EA5B97779597016C702 /* Pods_Swift4LINELogin.framework in Frameworks */,
+				FFE720892175C1AE0008227E /* LineSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		024CE9A572B9B8AB827B8FFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFE7208E2175C1FD0008227E /* Security.framework */,
+				FFE7208C2175C1F50008227E /* CoreTelephony.framework */,
+				FFE7208A2175C1E50008227E /* SDWebImage.framework */,
+				475DE09424BE57FE318D4643 /* Pods_Swift4LINELogin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9ECB2BF22A818764C17E73DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53162FB7B35D2A377012719A /* Pods-Swift4LINELogin.debug.xcconfig */,
+				8ABEAC38B29B29F9240CADD9 /* Pods-Swift4LINELogin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FFE7206A2175BB6D0008227E = {
 			isa = PBXGroup;
 			children = (
 				FFE720752175BB6D0008227E /* Swift4LINELogin */,
 				FFE720742175BB6D0008227E /* Products */,
+				9ECB2BF22A818764C17E73DB /* Pods */,
+				024CE9A572B9B8AB827B8FFF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,8 +98,12 @@
 		FFE720752175BB6D0008227E /* Swift4LINELogin */ = {
 			isa = PBXGroup;
 			children = (
+				FFE720932175C8D50008227E /* lineIcon.png */,
+				FFE720902175C22F0008227E /* Swift4LINELogin.entitlements */,
+				FFE720882175C1AE0008227E /* LineSDK.framework */,
 				FFE720762175BB6D0008227E /* AppDelegate.swift */,
 				FFE720782175BB6D0008227E /* ViewController.swift */,
+				FFE720912175C85C0008227E /* ProfileViewController.swift */,
 				FFE7207A2175BB6D0008227E /* Main.storyboard */,
 				FFE7207D2175BB6E0008227E /* Assets.xcassets */,
 				FFE7207F2175BB6E0008227E /* LaunchScreen.storyboard */,
@@ -71,9 +119,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FFE720852175BB6E0008227E /* Build configuration list for PBXNativeTarget "Swift4LINELogin" */;
 			buildPhases = (
+				B89A5FBA96986596651BE079 /* [CP] Check Pods Manifest.lock */,
 				FFE7206F2175BB6D0008227E /* Sources */,
 				FFE720702175BB6D0008227E /* Frameworks */,
 				FFE720712175BB6D0008227E /* Resources */,
+				EDABC388B3A56454E7B7FF59 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +146,12 @@
 				TargetAttributes = {
 					FFE720722175BB6D0008227E = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -122,6 +178,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFE720942175C8D50008227E /* lineIcon.png in Resources */,
 				FFE720812175BB6E0008227E /* LaunchScreen.storyboard in Resources */,
 				FFE7207E2175BB6E0008227E /* Assets.xcassets in Resources */,
 				FFE7207C2175BB6D0008227E /* Main.storyboard in Resources */,
@@ -130,11 +187,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B89A5FBA96986596651BE079 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Swift4LINELogin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDABC388B3A56454E7B7FF59 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Swift4LINELogin/Pods-Swift4LINELogin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebp.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swift4LINELogin/Pods-Swift4LINELogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FFE7206F2175BB6D0008227E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFE720922175C85C0008227E /* ProfileViewController.swift in Sources */,
 				FFE720792175BB6D0008227E /* ViewController.swift in Sources */,
 				FFE720772175BB6D0008227E /* AppDelegate.swift in Sources */,
 			);
@@ -278,9 +377,16 @@
 		};
 		FFE720862175BB6E0008227E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53162FB7B35D2A377012719A /* Pods-Swift4LINELogin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Swift4LINELogin/Swift4LINELogin.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2MW7724T87;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Swift4LINELogin",
+				);
 				INFOPLIST_FILE = Swift4LINELogin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -288,16 +394,23 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.taiki.Swift4LINELogin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		FFE720872175BB6E0008227E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ABEAC38B29B29F9240CADD9 /* Pods-Swift4LINELogin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Swift4LINELogin/Swift4LINELogin.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2MW7724T87;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Swift4LINELogin",
+				);
 				INFOPLIST_FILE = Swift4LINELogin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,7 +418,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.taiki.Swift4LINELogin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
